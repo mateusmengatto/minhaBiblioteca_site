@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* RESETANDO OS ESTILOS PADROES */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* --------------NAVBAR------------- */
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: lightgray;
+  color: whitesmoke;
+  text-align: left;
+  padding: 10px 0px 10px;
+  margin-top: 0px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+nav > ul > li {
+  display: inline;
+  padding: 2px 0 0 0;
+  list-style: none;
+  float: left;
+  margin-left: 50px;
+  transition-duration: 0.1s;
+  height: 30px;
+}
+nav > ul > li:first-child {
+  padding: 0;
+}
+nav > ul > li:last-child {
+  float: right;
+  margin-right: 30px;
+  font-size: 22px;
+}
+
+nav > ul > li > a:hover {
+  background-color: whitesmoke;
+  color: rgb(87, 86, 86);
+}
+
+nav > ul > li:last-child > a:hover {
+  background-color: transparent;
+  color: rgb(87, 86, 86);
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  border-radius: 30px;
+  padding: 3.5px 8px;
+  font-weight: 400;
+}
+
+#logo {
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+#perfil {
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* -------------------------------- */
+
+main {
+  text-align: center;
+  width: 100%;
+  padding: 0px;
+  margin: auto;
+  color: #8f8e8e;
+  font-size: medium;
+  margin-top: 80px;
+}
+
+main img {
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+}
+
+main h1 {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.form {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+.form div {
+  padding-top: 10px;
+  height: content;
+  text-align: left;
+  height: 85px;
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border: 0px;
+  background-color: #f0f0f0;
+  width: 250px;
+  color: black;
+  font-size: small;
+}
+
+.error {
+  font-size: small;
+  color: red;
+  display: none;
+  min-height: 20px;
+}
+
+input[type="submit"] {
+  width: 160px;
+  border-radius: 4px;
+  border: 0px;
+  background-color: #535353;
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #393939;
+  transition: 0.2s;
+}
+
+.forgottenPass {
+  float: right;
+  padding-bottom: 15px;
+  font-size: small;
+}
+
+main a {
+  color: blueviolet;
+}

@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+    
+}
+h1{
+    text-align: center;
+    color: gray;
+    margin-top: 70px;
+    
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: whitesmoke;
+    text-align: left;
+    padding: 10px 0px 10px;
+    margin-top: 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+  nav > ul > li{
+    display: inline;
+    padding: 2px 0 0 0;
+    list-style: none;
+    float: left;
+    margin-left: 50px;
+    transition-duration: 0.1s;
+    height: 30px;
+ }
+ nav > ul > li:first-child {
+    padding: 0;
+ }
+ nav > ul > li:last-child {
+    float: right;
+    margin-right: 30px;
+    font-size: 22px;
+ }
+
+ nav > ul > li> a:hover{
+    background-color: whitesmoke;
+    color: rgb(87, 86, 86);
+ }
+
+ nav > ul > li:last-child> a:hover{
+    background-color: transparent;
+    color: rgb(87, 86, 86);
+
+ }
+
+ nav > ul > li > a{
+    
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    border-radius: 30px;
+    padding:3.5px 8px;
+}
+
+#logo{
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#perfil
+{
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+div.img {
+    background-color: blue;
+    display: block;
+}
+
+main {
+    position: relative;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div.quadrado{
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+    
+}
+
+div.pai_do_quadrado {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+button.acao {
+    border: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    font-weight: 600;
+}
+
+button.acao:hover {
+    color:rgb(87, 86, 86);
+}
+    
+img.livro {
+     width: 132px;
+     height: 200px;
+}
+
+div>p{
+    text-align: center; 
+    margin-top: 20px;
+}
+
+/*adicionados Mateus */
+
+#div-single-center{
+    display: flex;
+    text-align: right;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+}
+
+
+.item-livro img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.item-livro .detalhes {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.item-livro .detalhes .capa {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.item-livro .detalhes .info-block {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-livro .detalhes .info-block label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.item-livro .detalhes .info-block input {
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+
+
